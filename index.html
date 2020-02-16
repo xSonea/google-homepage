@@ -10,7 +10,7 @@
     <body>
         <article>
             <header>
-<ul>
+<ul class="alignleft">
 <li><a href="images">
     About
 </a></li>
@@ -26,13 +26,20 @@
     Images
 </a></li>
 <li>
-<img id="apps" src="images/appsicon.png" alt="Apps-Icon"> 
+<span id="appsspan">
+<a id="applink" href="/images/">
+<img id="apps" src="images/appsicon.png" alt="Apps-Icon">
+</a>
+</span>
+</li>
+<li>
+    <button type="button" id="signin">Sign In</button>
 </li>
 </ul>
             </header>
             <div id="content">
             <section>
-        <img src="images/googlelogo.png" alt="Google Logo">
+        <img id="#logo" src="images/googlelogo.png" alt="Google Logo">
         <form>
             <div>
             <img class="magnifyingglass" src="images/glass.png">
@@ -46,7 +53,7 @@
     </section>
 </div>
         <footer>
-            <ul>
+            <ul class="alignleft2">
             <li><a href="images">
                 Advertising
             </a></li>
@@ -56,13 +63,15 @@
             <li><a href="images">
                 How Search works
             </a></li>
-            <li class="alignright"><a href="images">
+            </ul>
+            <ul class="alignright2">
+            <li><a href="images">
                 Privacy
             </a></li>
-            <li class="alignright"><a href="images">
+            <li><a href="images">
                 Terms
             </a></li>
-            <li class="alignright"><a href="images">
+            <li><a href="images">
                 Settings
             </a></li>
         </ul>

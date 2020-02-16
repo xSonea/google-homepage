@@ -20,14 +20,6 @@ li {
     float: left;
 }
 
-a{
-    display: block;
-    padding: 8px;
-    text-decoration: none;
-    color: black;
-
-}
-
 a:hover {
     text-decoration: underline;
 }
@@ -36,24 +28,60 @@ a:hover {
     clear: both;
     margin: 0;
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 40%;
+    left: 45%;
     transform: translate(-30%, -50%);
 }
 
 .alignright {
     float: right;
     padding-right: 35px;
+    padding-top: 20px;
+}
+
+.alignleft {
+    float: left;
+    padding-left: -20px;
+    padding-top: 20px;
+}
+
+.alignright2 {
+    float: right;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.alignleft2 {
+    float: left;
+    padding-left: -20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 header a {
     padding-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.75;
+}
+
+footer a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.75;
 }
 
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background: #f2f2f2;
 }
 
 header {
@@ -104,12 +132,24 @@ header {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
 }
 
+#appsspan {
+    position: relative;
+    vertical-align: middle;
+    align-items: baseline;
+    background-position: -132px -38px;
+    opacity: .75;
+}
+
+#applink:hover {
+    opacity: 1;
+}
+
 #apps {
-    position: absolute;
-    top: 24px;
-    right: 45px;
-    width: 40px;
-    opacity: .55;
+    width: 25px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
 }
 
 .magnifyingglass {
@@ -119,4 +159,18 @@ header {
     height: auto;
     margin-left: -5px;
     margin-bottom: -50px;
+}
+
+#signin {
+    background-color: #4683ea;
+    color: white;
+    font-weight: bold;
+    padding: 0 12px;
+    display: inline-block;
+    line-height: 28px;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    margin-left: 15px;
 }
